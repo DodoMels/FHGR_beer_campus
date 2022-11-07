@@ -1,0 +1,10 @@
+1.1	Variantenstudie
+Hier werden drei verschiedene Varianten Aufgelistet wie die Automatisierung der Brauanlage realisiert werden kann. Zum Schluss werden die einzelnen Varianten bewertet und ein Entscheid getroffen.
+1.1.1	Variante 1 Craftbeer PI
+Rasperypi mittels Craftbeer PI aufsetzten. Das Craftbeer Pi bietet ein Komplettes Programm um die verschiedenen Automatisierungen einzubinden. Mittels einem Server können die einzelnen Komponenten auf einen Ausgang/Eingang definiert werden. Das Programm regelt danach alles selbst anhand des vorher definierten Rezept. Um alles zu automatisieren muss eine Box mit Relais und den Temperatursensor gebaut werden, danach sollte alles Plug and Play sein. 
+Dadurch dass das Programm sehr gross ist und auf einem sehr hohen level geschrieben ist, kann es für nachfolgende Studierende schwierig werden die Brauanlage zu erweitern. Empfehlenswert ist ein zweites PI einzusetzen um zusätzliche Überwachungen einzubinden die jedoch nicht die Brauanlage steuern. 
+1.1.2	Variante 2 Pixtend
+Das Pixtend bietet ein Zusatz Modul, dass mit dem PI angesteuert wird. Auf dem Zusatzmodul sind verschiedene Komunikationsschnitstellen und Relais die auch für 230V geeignet sind. 
+Es ist nicht möglich Pixtend und Craftbeer PI zusammen zuführen. Pixtend benötigt die Pythonversion kleiner als 3 und Craftbeer PI grösser als 3. 
+1.1.3	Variante 3 PI mit relaisshield
+
